@@ -1,8 +1,8 @@
 import unittest
 
-from min_max_number import
+from min_max_number import find_max_min
 
-class MaxMinTest(TestCase):
+class MaxMinTest(unittest.TestCase):
     """docstring for MaxMinTest"""
 
     def test_find_max_min_four(self):
